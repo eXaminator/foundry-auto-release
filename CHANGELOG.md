@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/eXaminator/foundry-auto-release/compare/1.0.1...1.0.2) (2021-07-04)
+
+
+### Bug Fixes
+
+* set correct entrypoint and CMD ([139c770](https://github.com/eXaminator/foundry-auto-release/commit/139c770b9a5f4755401949aca2360a00443ddef1))
+
 ## [1.0.1](https://github.com/eXaminator/foundry-auto-release/compare/1.0.0...1.0.1) (2021-07-04)
 
 
