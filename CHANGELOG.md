@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/eXaminator/foundry-auto-release/compare/1.0.2...1.0.3) (2021-07-04)
+
+
+### Bug Fixes
+
+* add additional logs for debugging ([662ea3e](https://github.com/eXaminator/foundry-auto-release/commit/662ea3e685fade8121c7a813e943bc7e16f1124e))
+
 ## [1.0.2](https://github.com/eXaminator/foundry-auto-release/compare/1.0.1...1.0.2) (2021-07-04)
 
 
