@@ -1,0 +1,23 @@
+name: 'Deploy to Foundry VTT'
+description: 'Automatically release a new version for the Foundry VTT Package Manager.'
+inputs:
+    manifest-path:
+        description: 'Location of the module.json file which contains all relevant information.'
+        required: true
+    package-id:
+        description: 'ID of the package in the Foundry VTT package manager.'
+        required: true
+    fvtt-username:
+        description: 'Your FVTT username used to administrate your package.'
+        required: true
+    fvtt-password:
+        description: 'Your FVTT password used to administrate your package.'
+        required: true
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        - ${{ inputs.manifest-path }}
+        - ${{ inputs.package-id }}
+        - ${{ inputs.fvtt-username }}
+        - ${{ inputs.fvtt-password }}
