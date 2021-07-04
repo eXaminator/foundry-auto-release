@@ -11,6 +11,8 @@ if (!packageId) throw new Error('Missing argument 2: Package id');
 if (!username) throw new Error('Missing argument 3: Username');
 if (!password) throw new Error('Missing argument 4: Password');
 
+console.log('Release Foundry VTT package', { manifestPath, packageId });
+
 const fullPath = process.env.NODE_ENV === 'development'
     ? join('..', manifestPath)
     : join('/github/workspace', manifestPath);
@@ -30,6 +32,7 @@ try {
         await page.type(selector, value);
     }
 
+    console.log('Try to login...');
     await page.goto('https://foundryvtt.com', { waitUntil: 'load' });
 
     await page.click('[for="modal-login-trigger"]');
@@ -38,6 +41,7 @@ try {
     await page.click('#login-login');
     await page.waitForSelector('#login-welcome');
 
+    console.log('Modify package data...');
     await page.goto(`https://foundryvtt.com/admin/packages/package/${packageId}/change/`);
     const id = await page.$eval('tr.dynamic-versions:not(.has_original)', e => e.id);
 
@@ -66,7 +70,7 @@ try {
     await page.click('[name="_continue"]');
     await page.waitForNavigation({ waitUntil: 'load' });
 
-    console.log('Done');
+    console.log('Done!');
 
     await browser.close();
 } catch (error) {
