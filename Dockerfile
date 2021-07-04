@@ -8,4 +8,5 @@ RUN  npm ci
 
 COPY . .
 
-ENTRYPOINT node .
+ENTRYPOINT ["node", "."]
+CMD []
