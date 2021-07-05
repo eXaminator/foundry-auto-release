@@ -10,7 +10,7 @@ if (!password) throw new Error('Missing argument 4: Password');
 
 const fullPath = process.env.NODE_ENV === 'development'
     ? join('..', manifestPath)
-    : join('/github/workflow', manifestPath);
+    : join('/github/workspace', manifestPath);
 
 try {
     await createRelease(fullPath, packageId, username, password);
