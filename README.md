@@ -20,7 +20,7 @@ the information found inside the given module.json file.
 ## Example usage
 
 ```yaml
-uses: eXaminator/foundry-auto-release@1.0.0
+uses: eXaminator/foundry-auto-release@1.0.6
 with:
     manifest-path: './dist/module.json'
     package-id: ${{ secrets.FVTT_PACKAGE_ID }}
