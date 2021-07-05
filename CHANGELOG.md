@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/eXaminator/foundry-auto-release/compare/1.0.3...1.0.4) (2021-07-05)
+
+
+### Bug Fixes
+
+* clean up code and run puppeteer with args: --no-sandbox due to root user ([5ad98cc](https://github.com/eXaminator/foundry-auto-release/commit/5ad98cc5173bd65e2c9a29fcfec721e47482845d))
+
 ## [1.0.3](https://github.com/eXaminator/foundry-auto-release/compare/1.0.2...1.0.3) (2021-07-04)
 
 
