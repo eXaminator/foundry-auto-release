@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/eXaminator/foundry-auto-release/compare/1.0.5...1.0.6) (2021-07-05)
+
+
+### Bug Fixes
+
+* set correct base path for project ([7e3d214](https://github.com/eXaminator/foundry-auto-release/commit/7e3d21430768856226e3bef22a86bc15cb19963c))
+
 ## [1.0.5](https://github.com/eXaminator/foundry-auto-release/compare/1.0.4...1.0.5) (2021-07-05)
 
 
