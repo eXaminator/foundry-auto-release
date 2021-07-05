@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/eXaminator/foundry-auto-release/compare/1.0.4...1.0.5) (2021-07-05)
+
+
+### Bug Fixes
+
+* set absolute entrypoint path ([c46d1e5](https://github.com/eXaminator/foundry-auto-release/commit/c46d1e5bb74bbdebd323e938ede53e9d5cc254ca))
+
 ## [1.0.4](https://github.com/eXaminator/foundry-auto-release/compare/1.0.3...1.0.4) (2021-07-05)
 
 
