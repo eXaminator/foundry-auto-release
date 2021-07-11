@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/eXaminator/foundry-auto-release/compare/1.0.6...1.1.0) (2021-07-11)
+
+
+### Features
+
+* add docker image build and publish ([8f31935](https://github.com/eXaminator/foundry-auto-release/commit/8f319354bef17cc7e77653e4e53e2966059bfbb6))
+
 ## [1.0.6](https://github.com/eXaminator/foundry-auto-release/compare/1.0.5...1.0.6) (2021-07-05)
 
 
