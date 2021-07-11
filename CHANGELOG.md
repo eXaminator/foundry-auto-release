@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/eXaminator/foundry-auto-release/compare/1.1.0...1.1.1) (2021-07-11)
+
+
+### Bug Fixes
+
+* change event for docker image build ([a9a20a3](https://github.com/eXaminator/foundry-auto-release/commit/a9a20a3e77547029955bd4d41c75665d2c99fadc))
+
 # [1.1.0](https://github.com/eXaminator/foundry-auto-release/compare/1.0.6...1.1.0) (2021-07-11)
 
 
