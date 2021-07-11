@@ -22,7 +22,7 @@ the information found inside the given module.json file.
 ```yaml
 uses: eXaminator/foundry-auto-release@1.0.6
 with:
-    manifest-path: './dist/module.json'
+    manifest-path: '/github/workspace/dist/module.json'
     package-id: ${{ secrets.FVTT_PACKAGE_ID }}
     fvtt-username: ${{ secrets.FVTT_USERNAME }}
     fvtt-password: ${{ secrets.FVTT_PASSWORD }}
