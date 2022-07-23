@@ -23,8 +23,6 @@ export default async function createRelease(manifestPath, packageId, username, p
 
     console.log('Try to login...');
     await page.goto('https://foundryvtt.com', { waitUntil: 'load' });
-
-    await page.click('[for="modal-login-trigger"]');
     await editField('[name="login_username"]', username);
     await editField('[name="login_password"]', password);
     await page.click('#login-login');
