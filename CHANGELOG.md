@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/eXaminator/foundry-auto-release/compare/1.1.1...1.1.2) (2022-07-23)
+
+
+### Bug Fixes
+
+* update to use new foundry landing page styles / selectors ([7810af6](https://github.com/eXaminator/foundry-auto-release/commit/7810af6c7685f85aad8b28ce68edbce3ccdbcebd))
+
 ## [1.1.1](https://github.com/eXaminator/foundry-auto-release/compare/1.1.0...1.1.1) (2021-07-11)
 
 
