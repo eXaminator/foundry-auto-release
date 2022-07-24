@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/eXaminator/foundry-auto-release/compare/1.1.3...1.1.4) (2022-07-24)
+
+
+### Bug Fixes
+
+* revert to original check to see if login was successful ([6864fb7](https://github.com/eXaminator/foundry-auto-release/commit/6864fb783e12cc07ede514a66992ec258e45deb6))
+
 ## [1.1.3](https://github.com/eXaminator/foundry-auto-release/compare/1.1.2...1.1.3) (2022-07-23)
 
 
