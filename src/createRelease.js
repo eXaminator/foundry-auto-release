@@ -40,7 +40,7 @@ export default async function createRelease(manifestPath, packageId, username, p
     await editField('#login-form input[name="login_username"]', username);
     await editField('#login-form input[name="login_password"]', password);
     await page.click('#login-form button[name="login"]');
-    await page.waitForNavigation();
+    await page.waitForSelector('#login-welcome');
 
     console.log('Modify package data...');
     await page.goto(`https://foundryvtt.com/admin/packages/package/${packageId}/change/`);
