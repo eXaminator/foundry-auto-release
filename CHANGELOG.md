@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/eXaminator/foundry-auto-release/compare/1.1.4...1.1.5) (2022-09-19)
+
+
+### Bug Fixes
+
+* support new compatibility module.json format ([c2227b3](https://github.com/eXaminator/foundry-auto-release/commit/c2227b3e2673112fc6cbdd71ffcd88f8c07b1c12))
+
 ## [1.1.4](https://github.com/eXaminator/foundry-auto-release/compare/1.1.3...1.1.4) (2022-07-24)
 
 
