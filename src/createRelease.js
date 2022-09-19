@@ -52,8 +52,8 @@ export default async function createRelease(manifestPath, packageId, username, p
     await editField(`#id_${id}-version`, moduleData.version);
     await editField(`#id_${id}-manifest`, moduleData.manifest);
     await editField(`#id_${id}-notes`, `${moduleData.url}/releases/tag/${moduleData.version}`);
-    await editField(`#id_${id}-required_core_version`, moduleData.minimumCoreVersion);
-    await editField(`#id_${id}-compatible_core_version`, moduleData.compatibleCoreVersion);
+    await editField(`#id_${id}-required_core_version`, moduleData.compatibility.minimum ?? moduleData.minimumCoreVersion);
+    await editField(`#id_${id}-compatible_core_version`, moduleData.compatibility.verified ?? moduleData.compatibleCoreVersion);
 
     await page.click('#id_description + .tox-tinymce button[title="Source code"]');
     await page.waitForSelector('.tox-dialog textarea');
