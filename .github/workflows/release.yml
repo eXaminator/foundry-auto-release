@@ -38,4 +38,4 @@ jobs:
               with:
                   context: .
                   push: true
-                  tags: ${{ steps.semantic.outputs.new_release_version }},latest
+                  tags: examinator/foundry-auto-release:${{ steps.semantic.outputs.new_release_version }},examinator/foundry-auto-release:latest
