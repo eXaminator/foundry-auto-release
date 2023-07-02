@@ -1,7 +1,6 @@
-import { join } from 'path';
 import createRelease from './createRelease.js';
 
-const [,, manifestPath, packageId, username, password] = process.argv;
+const [, , manifestPath, packageId, username, password] = process.argv;
 
 if (!manifestPath) throw new Error('Missing argument 1: Manifest path');
 if (!packageId) throw new Error('Missing argument 2: Package id');
