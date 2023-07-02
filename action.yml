@@ -15,7 +15,7 @@ inputs:
         required: true
 runs:
     using: 'docker'
-    image: docker://examinator/foundry-auto-release:latest
+    image: docker://examinator/foundry-auto-release:1.1.12
     args:
         - ${{ inputs.manifest-path }}
         - ${{ inputs.package-id }}

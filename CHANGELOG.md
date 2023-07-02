@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/eXaminator/foundry-auto-release/compare/1.1.11...1.1.12) (2023-07-02)
+
+
+### Bug Fixes
+
+* ensure action.yml is updated for new versions ([7a61ee9](https://github.com/eXaminator/foundry-auto-release/commit/7a61ee96d1886b5c5dc1ab63f06a3134a0218df6))
+
 ## [1.1.11](https://github.com/eXaminator/foundry-auto-release/compare/1.1.10...1.1.11) (2023-07-02)
 
 
