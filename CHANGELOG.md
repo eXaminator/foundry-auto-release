@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/eXaminator/foundry-auto-release/compare/1.1.7...1.1.8) (2023-07-02)
+
+
+### Bug Fixes
+
+* add docker build to github actions ([543e5dd](https://github.com/eXaminator/foundry-auto-release/commit/543e5dd73d69ad7ba9d11480eeb432f102dcf2e3))
+
 ## [1.1.7](https://github.com/eXaminator/foundry-auto-release/compare/1.1.6...1.1.7) (2023-07-02)
 
 
