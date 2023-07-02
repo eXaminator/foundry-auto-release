@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/eXaminator/foundry-auto-release/compare/1.1.6...1.1.7) (2023-07-02)
+
+
+### Bug Fixes
+
+* update dependencies ([5a8f122](https://github.com/eXaminator/foundry-auto-release/commit/5a8f12292bd7a3e5d17d3ca7e6a79de35974f8bc))
+
 ## [1.1.6](https://github.com/eXaminator/foundry-auto-release/compare/1.1.5...1.1.6) (2023-07-02)
 
 
