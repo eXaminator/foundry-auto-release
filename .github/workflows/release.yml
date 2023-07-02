@@ -22,7 +22,20 @@ jobs:
               run: npm i
 
             - name: Release
-              id: create-release
+              id: semantic_release
+              uses: docker://codfish/semantic-release-action:latest
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: npm run release
+
+            - name: Log in to Docker Hub
+              uses: docker/login-action@v1
+              with:
+                  username: ${{ secrets.DOCKER_USERNAME }}
+                  password: ${{ secrets.DOCKER_PASSWORD }}
+
+            - name: Build and push Docker image
+              uses: docker/build-push-action@v2
+              with:
+                  context: .
+                  push: true
+                  tags: ${{ steps.semantic.outputs.new_release_version }},latest
