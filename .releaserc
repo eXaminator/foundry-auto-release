@@ -6,5 +6,10 @@ plugins:
     - '@semantic-release/release-notes-generator'
     - '@semantic-release/npm'
     - '@semantic-release/changelog'
+    - - '@google/semantic-release-replace-plugin'
+      - replacements:
+            - files: [action.yml]
+              from: 'foundry-auto-release:[-_a-zA-Z0-9.]+'
+              to: 'foundry-auto-release:${nextRelease.version}'
     - '@semantic-release/git'
     - '@semantic-release/github'
