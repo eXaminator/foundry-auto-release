@@ -11,5 +11,10 @@ plugins:
             - files: [action.yml]
               from: 'foundry-auto-release:[-_a-zA-Z0-9.]+'
               to: 'foundry-auto-release:${nextRelease.version}'
-    - '@semantic-release/git'
+    - - '@semantic-release/git'
+      - assets:
+            - action.yml
+            - CHANGELOG.md
+            - package.json
+            - package-lock.json
     - '@semantic-release/github'
