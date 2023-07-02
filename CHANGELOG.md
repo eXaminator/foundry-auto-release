@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/eXaminator/foundry-auto-release/compare/1.1.10...1.1.11) (2023-07-02)
+
+
+### Bug Fixes
+
+* use pre build image from docker hub ([4ab8a47](https://github.com/eXaminator/foundry-auto-release/commit/4ab8a47a2859c39d7b1080ebe0ffb52cb707c4be))
+
 ## [1.1.10](https://github.com/eXaminator/foundry-auto-release/compare/1.1.9...1.1.10) (2023-07-02)
 
 
