@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/eXaminator/foundry-auto-release/compare/1.1.8...1.1.9) (2023-07-02)
+
+
+### Bug Fixes
+
+* fix docker push hithub action ([e4a3367](https://github.com/eXaminator/foundry-auto-release/commit/e4a3367841ce1bf65387f33ab0d8ef6d0f1cbf81))
+
 ## [1.1.8](https://github.com/eXaminator/foundry-auto-release/compare/1.1.7...1.1.8) (2023-07-02)
 
 
