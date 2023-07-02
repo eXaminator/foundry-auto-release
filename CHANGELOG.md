@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/eXaminator/foundry-auto-release/compare/1.1.9...1.1.10) (2023-07-02)
+
+
+### Bug Fixes
+
+* use new semantic release image ([75a6ea9](https://github.com/eXaminator/foundry-auto-release/commit/75a6ea94406246de84bb529abb11af37c1cb97fa))
+
 ## [1.1.9](https://github.com/eXaminator/foundry-auto-release/compare/1.1.8...1.1.9) (2023-07-02)
 
 
